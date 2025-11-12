@@ -259,5 +259,6 @@ class Library:
             
         
 cursor = Library()
-
 cursor.print_all_users()
+
+cursor.show_user_borrowed_books(456)
